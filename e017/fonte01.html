@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em css</title>
+    <style> 
+      body { 
+          font-family: Arial, Helvetica, sans-serif;
+          /*
+          Medidas Absolutas 
+          cm, mm, polegada,  px , pt , pc
+          pt, pc nao utilizamos em tela mais p papel 
+
+          Medidas Relativas 
+          em, ex, rem, vw, vh, %  
+          16px geralmente= 1em
+          */
+          font-size: 1em ;
+      }
+      h1{
+          font-family: 'work san', sans-serif;
+          font-weight: bolder;
+          font-size: 3em;
+          font-style: italic;
+          /* shorthand font
+          - font-style-> font-weight-> font-size-> font family
+          usamos esse ao inces de várias linhas 
+
+          font-family: 'work san', sans-serif;
+          font-weight: bolder;
+          font-size: 3em;
+          font-style: italic;
+          */ 
+          font: italic bolder 3 em 'work sans', sans-serif;
+        }
+        h2{ 
+            font: bold 2em 'work sans';
+        }
+    </style>
+</head>
+<body>
+    <h1> Trabalhando com fontes</h1>
+    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere ad esse soluta ipsum corporis? Consequatur consectetur ratione repellat consequuntur recusandae qui possimus voluptatum, voluptatibus sint at, rerum ipsa quidem quasi!Lorem</p>
+    <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Modi illo maiores adipisci perferendis autem sapiente consequuntur quisquam. Alias cumque, fugiat aliquid repudiandae rem temporibus ex assumenda, minus adipisci quia nobis!</p>
+    <h2> Subtítulo do exercicío </h2>
+    <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Alias sint vitae accusamus nobis illum quis quod consequatur veritatis nisi nihil sit hic cum eligendi, praesentium accusantium quaerat dignissimos. Vel, perspiciatis.</p>
+</body>
+</html>

@@ -1,0 +1,31 @@
+@charset "UTF-8";
+
+*{
+    font-family: 'Luxurious Script', cursive;
+}
+body{
+    
+    background-image:linear-gradient(to right,#F2F2F2,#F2DFBB ) ;
+}
+main{
+    
+    background-color:white ;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgba(136, 109, 93, 0.616);
+    width: 600px;
+    padding: 10px;
+    margin:auto;
+}
+h1{
+     color:#58238C ;
+     text-align: center;
+     text-shadow: 1px 1px 2px rgba(196, 164, 211, 0.616);
+}
+h2{
+   
+    color: #9D84BF;
+}
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+}
